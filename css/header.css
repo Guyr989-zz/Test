@@ -565,10 +565,10 @@ a.nav__btn:hover {
         position: relative;
     }
 
-    /* .mobile__li__btn {
+    .mobile__li__btn {
         position: absolute;
         bottom: 0;
-    } */
+    }
 
     .nav__icon img {
         height: 24px;
@@ -787,11 +787,12 @@ a.nav__btn:hover {
 /* Iphon media */
 
 @media only screen and (max-width: 414px) and (min-width: 411px) {
+
     body {
-        background: pink;
+        background: blue;
     }
 
     .mobile__menu {
-        height: 92vh;
+        height: calc(92vh - 48px);
     }
 }
