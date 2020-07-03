@@ -787,6 +787,9 @@ a.nav__btn:hover {
 /* Iphon media */
 
 @media only screen and (max-width: 414px) and (min-width: 411px) {
+    body {
+        background: red;
+    }
 
     .mobile__menu {
         height: 92vh;
