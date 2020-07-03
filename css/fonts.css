@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "fbalfi-lightwebfont";
+    src: url("../includes/fonts/fbalfi-lightwebfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "fbalfi-regularwebfont";
+    src: url("../includes/fonts/fbalfi-regularwebfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "fbalfi-mediumwebfont";
+    src: url("../includes/fonts/fbalfi-mediumwebfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "fbalfi-boldwebfont";
+    src: url("../includes/fonts/fbalfi-boldwebfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "montserrat-v10-latin-regular";
+    src: url("../includes/fonts/montserrat-v10-latin-regular.woff") format("woff");
+    unicode-range: U+0040-005A, U+0061-007A;
+}
+
+@font-face {
+    font-family: "montserrat-v10-latin-500";
+    src: url("../includes/fonts/montserrat-v10-latin-500.woff") format("woff");
+    unicode-range: U+0040-005A, U+0061-007A;
+}
+
+@font-face {
+    font-family: "montserrat-v10-latin-600";
+    src: url("../includes/fonts/montserrat-v10-latin-600.woff") format("woff");
+    unicode-range: U+0040-005A, U+0061-007A;
+}
+
+@font-face {
+    font-family: "montserrat-v10-latin-800";
+    src: url("../includes/fonts/montserrat-v10-latin-800.woff") format("woff");
+    unicode-range: U+0040-005A, U+0061-007A;
+}
+
+/* FONTS */
+.font-light {
+    font-family: 'montserrat-v10-latin-regular,fbalfi-lightwebfont,arial, sans-serif';
+
+}
+
+.font-regular {
+    font-family: 'montserrat-v10-latin-regular, fbalfi-regularwebfont, arial, sans-serif';
+}
+
+.font-medium {
+    font-family: 'montserrat-v10-latin-600,fbalfi-mediumwebfont,arial,sans-serif';
+
+}
+
+.font-bold {
+    font-family: 'montserrat-v10-latin-800,fbalfi-boldwebfont';
+}
