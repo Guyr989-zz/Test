@@ -789,10 +789,10 @@ a.nav__btn:hover {
 @media only screen and (max-width: 414px) and (min-width: 411px) {
 
     body {
-        background: blue;
+        background: red;
     }
 
     .mobile__menu {
-        height: calc(92vh - 48px);
+        height: 88vh;
     }
 }
