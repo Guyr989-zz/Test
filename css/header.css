@@ -788,7 +788,7 @@ a.nav__btn:hover {
 
 @media only screen and (max-width: 414px) and (min-width: 411px) {
     body {
-        background: red;
+        background: pink;
     }
 
     .mobile__menu {
