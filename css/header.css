@@ -567,7 +567,7 @@ a.nav__btn:hover {
 
     .mobile__li__btn {
         position: absolute;
-        bottom: -200px;
+        bottom: 0;
     }
 
     .nav__icon img {
@@ -789,7 +789,7 @@ a.nav__btn:hover {
 @media only screen and (max-width: 414px) and (min-width: 411px) {
 
     body {
-        background: red;
+        background: pink;
     }
 
     .mobile__menu {
